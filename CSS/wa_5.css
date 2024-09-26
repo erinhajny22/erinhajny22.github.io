@@ -10,12 +10,7 @@ body {
     background-color: #ccc;
   }
   
-  /* Selectors to be matched up with rulesets */
-  
 
-  
-  /* Rulesets to be matched up with selectors */
-  
   .card {
     width: 35em;
     height: 22em;
@@ -32,7 +27,7 @@ body {
   
   .card footer {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
-    border-radius: 0 0 1.5em 1.5em;
+    border-radius: 0 0 1.5em 1.5em ;
   }
   
   .card article img {
@@ -53,4 +48,77 @@ body {
     height: 12em;
     background-color: rgba(0,0,0,.2)
   }
+
+  .card h2{
+    font-size: 2em;
+    line-height: 1.5em;
+  }
   
+  .card footer p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .card article p{
+    padding-left: 1em;
+    color: white;
+  }
+
+
+
+
+
+
+
+  .card2 {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: pink;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  
+  .card2 header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+  
+  .card2 footer {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em ;
+  }
+  
+  .card2 article img {
+    max-height: 100%;
+    float: right;
+  }
+
+  .card2 footer, .card header{
+    height: 3em;
+    padding: 1em;
+  }
+
+  .card2 h2, .card p{
+    margin: 0;
+  }
+
+  .card2 article img {
+    height: 12em;
+    background-color: rgba(0,0,0,.2)
+  }
+
+  .card2 h2{
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+  
+  .card2 footer p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .card2 article p{
+    padding-left: 1em;
+    color: white;
+  }
