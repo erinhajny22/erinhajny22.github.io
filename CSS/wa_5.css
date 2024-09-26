@@ -6,16 +6,13 @@ body {
   
   html {
     font-family: 'Helvetica neue', Arial, 'sans serif';
-    font-size: 30px;
+    font-size: 10px;
     background-color: #ccc;
   }
   
   /* Selectors to be matched up with rulesets */
   
-  .card article img
-  .card footer
-  .card header
-  .card
+
   
   /* Rulesets to be matched up with selectors */
   
@@ -42,3 +39,18 @@ body {
     max-height: 100%;
     float: right;
   }
+
+  .card footer, .card header{
+    height: 3em;
+    padding: 1em;
+  }
+
+  .card h2, .card p{
+    margin: 0;
+  }
+
+  .card article img {
+    height: 12em;
+    background-color: rgba(0,0,0,.2)
+  }
+  
