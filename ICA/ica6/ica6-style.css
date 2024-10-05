@@ -1,30 +1,38 @@
 * {
     box-sizing: border-box;
-  }
-  
-  html {
+}
+
+html {
     font-family: sans-serif;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
-    background: #ccc;
-  }
-  
-  article {
+    background: bottom center url("bottom-image.png") no-repeat;
+    background-color: transparent;
+    background: linear-gradient(top black white);
+    background-color: white;
+}
+
+
+article {
     width: 210mm;
     height: 297mm;
     margin: 20px auto;
     position: relative;
-  }
-  
-  address {
+    background: top center url("top-image.png") no-repeat;
+    border-top: 1px solid red;
+}
+
+
+
+address {
     position: absolute;
     bottom: 8mm;
     right: 20mm;
-  }
-  
-  h1 {
+}
+
+h1 {
     position: absolute;
     top: 12mm;
     left: 20mm;
@@ -36,4 +44,8 @@
     padding: 44px 0;
     color: white;
     text-shadow: 1px 1px 1px black;
-  }
+    background: top url(logo.png);
+    filter: drop-shadow(5px 5px 5px black)
+
+}
+/*
