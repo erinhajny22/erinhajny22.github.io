@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .full-img {
+    position: relative;
+    max-width: 600px;
+  }
+  
+  .displayed-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+  }
+  
+  button.dark {
+    margin-top: 10px;
+  }
+  
+  .thumb-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .thumb-bar img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+  
