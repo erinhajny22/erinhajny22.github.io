@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../Final/Final1.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul class="navbar">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="projects-overview">
+            <h2>Projects</h2>
+            <div id="filter-controls">
+                <label for="filter">Filter by technology:</label>
+                <select id="filter" name="filter">
+                    <option value="all">All</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+            </div>
+            <div id="projects-container"></div>
+        </section>
+
+        <section id="featured-images">
+            <h2>Featured Projects</h2>
+            <div class="featured-images-container">
+                <img src="assets/project1.jpg" alt="Project 1" class="featured-image">
+                <img src="assets/project2.jpg" alt="Project 2" class="featured-image">
+                <img src="assets/project3.jpg" alt="Project 3" class="featured-image">
+            </div>
+        </section>
+
+        <section id="image-carousel">
+            <div class="carousel">
+                <button class="carousel-button prev">&#8249;</button>
+                <div class="carousel-images">
+                    <!-- Images will be dynamically added here -->
+                </div>
+                <button class="carousel-button next">&#8250;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+
+</html>
+
+
