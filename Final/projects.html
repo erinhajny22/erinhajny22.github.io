@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../Final/projects1.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <ul class="navbar">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="aboutme.html" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="filter-controls">
+            <h2>Filter Projects</h2>
+            <label for="project-filter">Sort by Technology:</label>
+            <select id="project-filter">
+                <option value="all">All</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+        </section>
+
+        <section id="projects-container">
+
+            <!-- Project 1 -->
+            <div class="project-card" data-tech="html">
+                <img src="assets/css_project.jpg" alt="html Project" class="project-image">
+                <h3>Project 1: HTML Cats</h3>
+                <p>A project focused on creating responsive and visual using HTML</p>
+                <a href="wa3.html" class="project-link">View Project</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-tech="css">
+                <img src="assets/html_project.jpg" alt="CSS Project" class="project-image">
+                <h3>Project 2: CSS Dysplay Cards</h3>
+                <p>This project showcases fundamental HTML structure and layout techniques.</p>
+                <a href="wa5.html" class="project-link">View Project</a>
+            </div>
+
+    
+            <!-- Project 3 -->
+            <div class="project-card" data-tech="javascript">
+                <img src="assets/js_project.jpg" alt="JavaScript Project" class="project-image">
+                <h3>Project 3: JavaScript Interactivity</h3>
+                <p>Interactive web features implemented using JavaScript for dynamic functionality.</p>
+                <a href="js_project.html" class="project-link">View Project</a>
+            </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+
+</html>
+
+</html>
