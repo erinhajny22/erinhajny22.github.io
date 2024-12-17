@@ -30,3 +30,29 @@ btn.addEventListener('click', () => {
     btn.textContent = 'Darken';
   }
 });
+const carouselImages = document.querySelector('.carousel-images');
+const prevButton = document.querySelector('.carousel-button.prev');
+const nextButton = document.querySelector('.carousel-button.next');
+
+let currentIndex = 0;
+
+function updateCarousel() {
+    const imageWidth = document.querySelector('.carousel-image').clientWidth;
+    carouselImages.style.transform = `translateX(${-imageWidth * currentIndex}px)`;
+}
+
+nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % carouselImages.children.length;
+    updateCarousel();
+});
+
+prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + carouselImages.children.length) % carouselImages.children.length;
+    updateCarousel();
+});
+
+// Ensure carousel resizes correctly on window resize
+window.addEventListener('resize', updateCarousel);
+
+// Initialize the carousel
+updateCarousel();
