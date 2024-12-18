@@ -1,0 +1,26 @@
+{
+    "projects": [
+      {
+        "title": "HTML Cats",
+        "tech": "HTML",
+        "description": "A project focused on creating responsive and visually structured web pages using HTML.",
+        "image": "Screenshot 2024-12-17 at 2.53.37 PM.png",
+        "link": "wa3.html"
+      },
+      {
+        "title": "CSS Display Cards",
+        "tech": "CSS",
+        "description": "This project showcases responsive card layouts using advanced CSS techniques.",
+        "image": "Screenshot 2024-12-17 at 2.54.11 PM.png",
+        "link": "wa5.html"
+      },
+      {
+        "title": "JavaScript Interactive Page",
+        "tech": "JavaScript",
+        "description": "Interactive elements added to a webpage using JavaScript.",
+        "image": "Screenshot 2024-12-17 at 3.52.33 PM.png",
+        "link": "http://127.0.0.1:3000/html/landing.html"
+    }
+]
+}
+  
